@@ -70,6 +70,11 @@ export default function Navbar() {
       </div>
 
       <div className="md:hidden hidden bg-amber-700">
+         <div className="flex items-center">
+            <Link to="/" className="text-xl font-bold">
+              <img src="https://i.pinimg.com/736x/d6/b8/e5/d6b8e55c838c2f00bcb361569435c636.jpg" alt="" className="w-15 rounded-full"/>
+            </Link>
+          </div>
         <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
           <Link
             to="/"
