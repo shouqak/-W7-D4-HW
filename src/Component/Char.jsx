@@ -95,7 +95,7 @@ const handleDelete = (id) => {
      <h1 className="text-4xl font-extrabold text-center text-amber-900 py-5 ">
     Explore Gilmore Girl Characters
   </h1>
-  <div className="flex flex-wrap justify-center gap-6 p-5 ">
+  <div className="flex flex-row-reverse flex-wrap justify-center gap-6 p-5 ">
     {characters.length > 0 ? (
       characters.map((character) => (
         <div
